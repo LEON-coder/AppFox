@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../../../build/fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+
+.section-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+}
+
+
+.section__header-question {
+    display: flex;
+    height: 16px;
+    width: 255px;
+    border-radius: 0;
+    margin-top: 30px;   
+}
+
+.marked-header-question {
+    width: 27px;
+    height: 16px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #ff9c01;
+    text-shadow: 0 4px 30px #fff, 0 4px 60px #fff, 0 4px 90px #fff;
+}
+
+.header-question-download {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #0E283C;
+    text-shadow: 0px 4px 30px #FFFFFF, 0px 4px 60px #FFFFFF, 0px 4px 90px #FFFFFF;
+   }
+
+.section-text {
+    width: 255px;
+    height: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #768c9b;
+    margin-top: 11px;
+}
+
+.section__block-link-magazines {
+    justify-content: flex-start;
+    display: flex;
+    height: 39px;
+    width: 255px;
+}
+
+
+
+.link-magazines:first-child {
+    margin-right: 21px;
+}

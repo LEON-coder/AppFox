@@ -1,0 +1,17 @@
+@import url(../scss/partials/header.scss);
+@import url(../scss/partials/section.scss);
+@import url(../scss/partials/section-2.scss);
+@import url(../scss/partials/section-3.scss);
+@import url(../scss/partials/section-4.scss);
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+}
