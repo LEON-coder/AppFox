@@ -1,0 +1,47 @@
+footer {
+    width: 100%;
+    height: 67px;
+    background: #FFAB00;
+}
+
+.footer__wrap {
+    display: flex;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    list-style: none;
+    margin-right: 33px;
+}
+
+.footer__social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-link {
+    width: 24px;
+    height: 24px;
+    display: flex;
+}
+
+.social-icon:last-child {
+    margin-right: 0;
+}
+
+#phone-svg:hover {
+    fill: red;
+}
+
+#link:hover {
+    fill: red;
+}
+
+#link {}
+
+#meeting-room-svg {}
+
+#group-svg {}

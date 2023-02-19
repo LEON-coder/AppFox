@@ -1,0 +1,83 @@
+.section-5__wrap {
+    width: 255px;
+    height: auto;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    margin-top: 30px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 33px;
+}
+
+.section-5__header-block {
+    width: 255px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-5__header {
+    width: 255px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.FAQ {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FF9C01;
+}
+
+#section-5__select {
+    transition: all 1s ease-in;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 5px 10px;
+    gap: 5px;
+    width: 255px;
+    height: 34px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 9px;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+}
+
+.section-5__describe {
+    width: 255px;
+    height: auto;
+    font-style: normal;
+    color: #4e5c66;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.section-5__select-block {
+    margin-bottom: 30px;
+}

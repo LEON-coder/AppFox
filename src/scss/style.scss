@@ -3,9 +3,10 @@
 @import url(../scss/partials/section-2.scss);
 @import url(../scss/partials/section-3.scss);
 @import url(../scss/partials/section-4.scss);
-
-
-
+@import url(../scss/partials/section-5.scss);
+@import url(../scss/partials/section-6.scss);
+@import url(../scss/partials/section-contacts.scss);
+@import url(../scss/partials/footer.scss);
 * {
     padding: 0;
     margin: 0;
@@ -14,4 +15,16 @@
 body {
     width: 100%;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    src: url(../../../build/fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    src: url(../../../build/fonts/roboto/Robotomedium.woff2);
 }

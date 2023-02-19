@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    src: url(../../../build/fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    src: url(../../../build/fonts/roboto/Robotomedium.woff2);
+}
+
+.section-6 {
+    background-image: url(/build/img/section-6/background.jpg);
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+.section-6__wrap {
+    display: flex;
+    width: 100%;
+    height: 381.29px;
+    margin-left: 33px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.section-6__reviews-block {
+    display: flex;
+}
+
+.section-6__reviews {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 98.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.reviews-img {
+    width: 30px;
+    height: 30px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #302f3c;
+    transform: rotate(-0.55deg);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.section-6__describe {
+    width: 255px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.section-6__block-figure {
+    display: flex;
+    height: 17px;
+    width: 127.9995498657px;
+    border-radius: 99px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.figure {
+    width: 16.94px;
+    height: 17px;
+    left: 0px;
+    top: 134.29px;
+    background: #FFFFFF;
+    border-radius: 99px;
+    margin-right: 6.27px;
+}
+
+.figure-big {
+    width: 81.57px;
+    height: 17px;
+    background: #FFFFFF;
+    border-radius: 99px;
+}
+
+.section-6__reviews-clients {
+    width: 255px;
+    height: 189px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}

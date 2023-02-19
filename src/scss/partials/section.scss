@@ -1,23 +1,15 @@
-
-@font-face {
-    font-family: 'Ubuntu';
-    src: url(../../../build/fonts/Ubuntu/Ubuntu-Medium.ttf);
-}
-
-
 .section-wrap {
     display: flex;
     flex-direction: column;
     margin-left: 33px;
 }
 
-
 .section__header-question {
     display: flex;
     height: 16px;
     width: 255px;
     border-radius: 0;
-    margin-top: 30px;   
+    margin-top: 30px;
 }
 
 .marked-header-question {
@@ -44,7 +36,7 @@
     text-transform: uppercase;
     color: #0E283C;
     text-shadow: 0px 4px 30px #FFFFFF, 0px 4px 60px #FFFFFF, 0px 4px 90px #FFFFFF;
-   }
+}
 
 .section-text {
     width: 255px;
@@ -64,8 +56,6 @@
     height: 39px;
     width: 255px;
 }
-
-
 
 .link-magazines:first-child {
     margin-right: 21px;
