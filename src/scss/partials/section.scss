@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 33px;
+    position: relative;
 }
 
 .section__header-question {
@@ -10,6 +11,10 @@
     width: 255px;
     border-radius: 0;
     margin-top: 30px;
+}
+
+.smartphone-img-section-2 {
+    display: none;
 }
 
 .marked-header-question {

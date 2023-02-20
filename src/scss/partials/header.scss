@@ -17,7 +17,7 @@ header {
 }
 
 .header__background-smartphone {
-    back width: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -84,4 +84,44 @@ aside {
 
 .become-partner-block {
     display: none;
+}
+
+.header__bubbles-block {
+    display: none;
+}
+
+.section-3__map--768 {
+    display: none;
+}
+
+.section-3__map--ball-purple {
+    display: none;
+}
+
+.section-4-text {
+    width: 255px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer-become-partner-block {
+    display: none;
+}
+
+.name_client {
+    width: 255px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: right;
+    color: #fff;
+    margin-top: 10px;
 }
