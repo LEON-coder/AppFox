@@ -23,6 +23,12 @@ header {
     left: 0;
 }
 
+.header__nav_mail,
+.header__nav_phone {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .nav {
     display: flex;
     width: 252px;
