@@ -1,4 +1,5 @@
 header {
+    background-image: url(../build/img/header/back.jpg);
     display: flex;
     width: 100%;
     background: linear-gradient( 180deg, #ffab00 -182.82%, #ffcd68 -100.25%, #ffab00 54.78%, #ffab00 95.73%);
@@ -14,6 +15,22 @@ header {
     height: 302px;
     z-index: 5;
     position: relative;
+}
+
+.img-phone {
+    position: absolute;
+}
+
+.header__nav_phone {
+    display: none;
+}
+
+.header__nav_mail {
+    display: none;
+}
+
+.enter-block {
+    display: none;
 }
 
 .header__background-smartphone {
@@ -130,4 +147,8 @@ aside {
     text-align: right;
     color: #fff;
     margin-top: 10px;
+}
+
+.cooker-img {
+    display: none;
 }

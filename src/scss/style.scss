@@ -15,18 +15,22 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     box-sizing: border-box;
+    align-items: center;
 }
 
 @font-face {
     font-family: 'Ubuntu';
     font-style: normal;
-    src: url(../../../build/fonts/Ubuntu/Ubuntu-Medium.ttf);
+    src: url(../../build/fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
-    src: url(../../../build/fonts/roboto/Robotomedium.woff2);
+    src: url(../../build/fonts/roboto/Roboto.woff2);
 }

@@ -2,13 +2,15 @@
     width: 100%;
     background: linear-gradient(180deg, #ffab00 -182.82%, #ffcd68 -100.25%, #ffab00 54.78%, #ffab00 95.73%);
     height: 329px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-4__wrap {
     width: 255px;
     display: flex;
     flex-direction: column;
-    margin-left: 33px;
     padding-top: 17px;
     position: relative;
 }

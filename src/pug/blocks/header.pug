@@ -1,15 +1,18 @@
 header 
  .header__wrap
-  picture.img-phone 
-   source(srcset="../../../build/img/media/768px/header/image 44.png" media="(min-width:768px)")
-   source(srcset="../../../build/img/media/1440px/header/phone-1440px.png" media="(min-width:1440px)")
-   img(src="../../../build/img/header/header_image.png" alt="phone ")
+  picture.img-phone    
+   source(srcset="/build/img/media/1440px/header/phone-1440px.png" media="(min-width:1440px)")
+   source(srcset="/build/img/media/768px/header/phone-768.png" media="(min-width:768px)")
+   img(src="/build/img/header/header_image.png" alt="phone ")
   .nav
    ul.header__nav-menu 
     li.header__nav-item
      a.header__nav-link
-      svg(width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg')
-       rect(id='link@' width='24' height='24' rx='12' fill='#fff')
+      picture 
+       source(srcset="build/img/media/768px/header/circle.png" media="(min-width:768px)")
+       source(srcset="build/img/media/1440px/header/circle-1440px.svg" media="(min-width:768px)")
+       img(src="build/img/header/circle.svg", alt="")
+       
 
     li.header__nav-item
      a.header__nav-link
@@ -61,17 +64,17 @@ header
      
 
      .header__bubbles-block 
-        img.bubble-1(src="../../../build/img/media/section-1/768px/Rectangle-10.png" alt="")
-        img.bubble-2(src="../../../build/img/media/section-1/768px/Rectangle-11.png" alt="")
-        img.bubble-3(src="../../../build/img/media/section-1/768px/Rectangle-9.png" alt="")
-        img.bubble-4(src="../../../build/img/media/section-1/768px/Rectangle-5.png" alt="")
-        img.bubble-5(src="../../../build/img/media/section-1/768px/Rectangle-4.png" alt="")
-        img.bubble-6(src="../../../build/img/media/section-1/768px/Rectangle-3.png" alt="")
-        img.bubble-7(src="../../../build/img/media/section-1/768px/Rectangle-2.png" alt="")
-        img.bubble-8(src="../../../build/img/media/section-1/768px/Rectangle-8.png" alt="")
-        img.bubble-9(src="../../../build/img/media/section-1/768px/Rectangle-7.png" alt="")
-        img.bubble-10(src="../../../build/img/media/section-1/768px/Rectangle-6.png" alt="")
-        img.bubble-11(src="../../../build/img/media/section-1/768px/Rectangle-1.png" alt="")
+        img.bubble-1(src="build/img/media/section-1/768px/Rectangle-10.png" alt="")
+        img.bubble-2(src="build/img/media/section-1/768px/Rectangle-11.png" alt="")
+        img.bubble-3(src="build/img/media/section-1/768px/Rectangle-9.png" alt="")
+        img.bubble-4(src="build/img/media/section-1/768px/Rectangle-5.png" alt="")
+        img.bubble-5(src="build/img/media/section-1/768px/Rectangle-4.png" alt="")
+        img.bubble-6(src="build/img/media/section-1/768px/Rectangle-3.png" alt="")
+        img.bubble-7(src="build/img/media/section-1/768px/Rectangle-2.png" alt="")
+        img.bubble-8(src="build/img/media/section-1/768px/Rectangle-8.png" alt="")
+        img.bubble-9(src="build/img/media/section-1/768px/Rectangle-7.png" alt="")
+        img.bubble-10(src="build/img/media/section-1/768px/Rectangle-6.png" alt="")
+        img.bubble-11(src="build/img/media/section-1/768px/Rectangle-1.png" alt="")
       
 
   aside 
