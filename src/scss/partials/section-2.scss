@@ -2,30 +2,43 @@
     width: 100%;
     height: 510px;
     margin-top: 181px;
-    background: radial-gradient(95.07% 208.89% at 50% -135.55%, #513E63 0%, #282837 29.64%, #4D4793 85.3%, #9260A9 100%);
+    background-repeat: no-repeat;
+    background: radial-gradient(95.07% 139.28% at 50% -43.54%, #513e63 0, #282837 29.64%, #4d4793 85.3%, #9260a9 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-2-block {
     display: flex;
     flex-direction: column;
-    margin-left: 33px;
+    margin-left: 0;
     position: relative;
     z-index: 6;
     width: 254px;
     height: 446px;
+    align-items: center;
 }
 
 .smartphone-img {
-    background-image: url(../../build/img/media/1440px/section-2/smartphone_section-2.png);
-    width: 371px;
+    width: auto;
     height: 637.38px;
-    margin-left: 125px;
+    margin-left: 0;
+    justify-content: center;
+    display: flex;
+    margin-top: -140px;
 }
 
 .section-2__block-describe {
     display: flex;
     flex-direction: column;
-    margin-top: 204px;
+    margin-top: 0;
+    order: 1;
+}
+
+.section-2__header-block {
+    display: flex;
+    flex-direction: column;
 }
 
 .marked-you {
@@ -33,7 +46,7 @@
     height: auto;
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 13px;
     line-height: 120%;
     letter-spacing: -0.03em;
@@ -47,7 +60,7 @@
     height: 32px;
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 13px;
     line-height: 120%;
     letter-spacing: -0.03em;
