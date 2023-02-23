@@ -1,17 +1,7 @@
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    src: url(../../../build/fonts/Ubuntu/Ubuntu-Medium.ttf);
-}
 
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    src: url(build/fonts/roboto/Robotomedium.woff2);
-}
 
 .section-6 {
-    background-image: url(/build/img/section-6/background.jpg);
+    background-image: url(../img/section-6/background.jpg);
     display: flex;
     justify-content: center;
     height: 450px;

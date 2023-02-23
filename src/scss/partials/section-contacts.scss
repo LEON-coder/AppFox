@@ -43,7 +43,7 @@
 
 .form {
     width: 255px;
-    height: 349px;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
@@ -84,6 +84,10 @@ input[type=text] {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.policy-block {
+display: flex;
 }
 
 .form__policy {
