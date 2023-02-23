@@ -10,19 +10,18 @@ const { stream } = require("browser-sync");
 const browserSync = require('browser-sync').create();
 const imagemin = require("gulp-imagemin");
 const sourcemaps = require('gulp-sourcemaps');
-const pugLint = require('pug-lint');
 
 
 
 
 function compilePug() {
     return gulp.src("./src/pug/**/*.pug")
+        .pipe(plumber())
         .pipe(pug({
             pretty: true
         }))
-        .pipe(pugLint)
         .pipe(gulp.dest('./'))
-        .pipe(browserSync.stream());
+        .pipe(browserSync.stream())
 }
 
 
