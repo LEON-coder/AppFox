@@ -9,6 +9,7 @@
 @import url(../scss/partials/footer.scss);
 @import url(../scss/partials/media/768px.scss);
 @import url(../scss/partials/media/1440px.scss);
+@import url(../scss/partials/media/1840px.scss);
 * {
     padding: 0;
     margin: 0;
@@ -34,6 +35,7 @@ body {
     font-style: normal;
     src: url(../../build/fonts/roboto/Roboto.woff2);
 }
+
 @font-face {
     font-family: 'Roboto';
     font-style: medium;
