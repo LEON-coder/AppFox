@@ -1,7 +1,5 @@
-
-
 .section-6 {
-    background-image: url(../img/section-6/background.jpg);
+    background-image: url(../../img/section-6/background.jpg);
     display: flex;
     justify-content: center;
     height: 450px;
@@ -9,6 +7,18 @@
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.section-6-layout {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    mix-blend-mode: color-dodge;
+    opacity: 0.1;
+    height: 370px;
+    margin-top: 20px;
 }
 
 .section-6__wrap {
@@ -105,4 +115,8 @@
     font-size: 14px;
     line-height: 150%;
     color: #FFFFFF;
+}
+
+.section-6__leefs {
+    display: none;
 }
