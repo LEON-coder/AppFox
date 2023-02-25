@@ -9,10 +9,12 @@
 .section-3-wrap {
     margin-left: 0;
     margin-top: 30px;
-    width: 100%;
+    width: 257px;
 }
- .section-3-question-download-block {
-display: flex;
+
+.section-3-question-download-block {
+    display: flex;
+    flex-direction: column;
 }
 
 .section-3__header {
@@ -20,15 +22,9 @@ display: flex;
     flex-direction: column;
 }
 
-.section-3--width {
-    width: 300px;
-}
-
 .section-3--column {
-    flex-direction: column;
     height: auto;
     width: auto;
-    padding-left: 31px;
 }
 
 .section-3-question-download {
@@ -71,7 +67,6 @@ display: flex;
     height: 67.64px;
     display: flex;
     margin-bottom: 18.36px;
-    padding-left: 31px;
 }
 
 .section-4__ball-small-purple,
@@ -84,4 +79,3 @@ display: flex;
 .section-6-bubble--modify {
     display: none;
 }
-

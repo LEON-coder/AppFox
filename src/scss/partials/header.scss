@@ -1,4 +1,4 @@
-header {    
+header {
     display: flex;
     width: 100%;
     background: linear-gradient( 180deg, #ffab00 -182.82%, #ffcd68 -100.25%, #ffab00 54.78%, #ffab00 95.73%);
@@ -45,6 +45,10 @@ header {
     cursor: pointer;
 }
 
+.header__nav-link {
+    display: flex;
+}
+
 .nav {
     display: flex;
     width: 252px;
@@ -62,6 +66,8 @@ header {
 .header__nav-item {
     display: flex;
     margin-right: 33px;
+    position: relative;
+    cursor: pointer;
 }
 
 #phone-svg--mobile {
