@@ -97,6 +97,11 @@ aside {
     align-items: center;
 }
 
+.aside__link {
+    display: flex;
+    cursor: pointer;
+}
+
 .social__block {
     display: flex;
 }
